@@ -1,0 +1,21 @@
+# ================================================================
+#  DANH SACH BAN QUYEN - DAVID GOLD
+#  DAVID TRADING | ZALO: 0335.6868.17
+# ----------------------------------------------------------------
+#  Moi dong 1 khach:   so_tai_khoan ; han_dung ; trang_thai
+#    - so_tai_khoan : so login MT5 cua khach (vd 12345678)
+#    - han_dung     : YYYY.MM.DD  (vinh vien -> 2099.12.31)
+#    - trang_thai   : ON = duoc chay | OFF = khoa ngay lap tuc
+#
+#  THAO TAC:
+#    + Cap phep moi : them 1 dong ID;han;ON
+#    + Thu hoi ngay : doi ON -> OFF  (hoac xoa han dong do)
+#    + Gia han      : sua lai ngay
+#  Luu (commit) xong, EA cap nhat trong <= 1 gio.
+#  Dong bat dau bang # la ghi chu, EA bo qua.
+# ================================================================
+
+# --- Vi du (xoa di, thay bang khach that cua ban) ---
+12345678;2026.12.31;ON
+23456789;2027.06.30;ON
+99999999;2026.08.01;OFF
